@@ -15,7 +15,7 @@ class EquipoController {
         $this->authHelper = new AuthHelper();
     }
 
-    /**
+     /**
      * Muestra la lista de Equipos.
      */
     public function showEquipos() {
@@ -24,6 +24,8 @@ class EquipoController {
         // se los paso a la vista
         $this->view->showEquiposVista($equipos);
     }
+        
+    
 
     public function showDetalleEquipo($params= null){
 
